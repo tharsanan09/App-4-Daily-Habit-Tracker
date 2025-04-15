@@ -11,7 +11,15 @@
     <h1>Daily Habit Tracker</h1>
     <div class="form">
       <input type="text" id="habit-title" placeholder="Habit title">
-      <input type="text" id="habit-category" placeholder="Category (optional)">
+      <select id="habit-category">
+        <option value="">Select Category (optional)</option>
+        <option value="Health">Health</option>
+        <option value="Productivity">Productivity</option>
+        <option value="Learning">Learning</option>
+        <option value="Fitness">Fitness</option>
+        <option value="Personal">Personal</option>
+      </select>
+      
       <button id="add-habit">Add Habit</button>
     </div>
     <ul id="habit-list"></ul>
